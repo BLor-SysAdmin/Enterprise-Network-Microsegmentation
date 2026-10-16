@@ -1,5 +1,8 @@
 # Enterprise Network Microsegmentation & Perimeter Access Control Policies
 
+## Homelab Network Topology
+![Homelab Master Network Topology](https://raw.githubusercontent.com/BLor-SysAdmin/HTC-Network-Administration-Labs/main/homelab-topology-blueprint.png)
+
 ## Executive Architecture Overview
 This network security infrastructure portfolio showcases the deployment of a micro-segmented virtual network topology engineered to enforce a strict Zero Trust model. Flat enterprise networks present an extreme risk vector, allowing an attacker who compromises an edge client to freely move laterally into private server zones. This project mitigates that risk by implementing layer-2 virtual network fabric boundaries (802.1Q VLANs) managed by a multi-interface core firewall gateway, explicitly isolating production assets from untrusted zones.
 
